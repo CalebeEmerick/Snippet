@@ -43,15 +43,15 @@ public extension AlertController where Self : UIAlertController {
     
     public static func actionSheet(title: String? = nil, message: String? = nil, actions: [AlertAction]) -> UIAlertController {
         
-        return createAlertController(title: title, message: message, actions: actions, style: .actionSheet)
+        return createAlertControllerWith(title: title, message: message, actions: actions, style: .actionSheet)
     }
     
     public static func alert(title: String? = nil, message: String? = nil, actions: [AlertAction]) -> UIAlertController {
         
-        return createAlertController(title: title, message: message, actions: actions, style: .alert)
+        return createAlertControllerWith(title: title, message: message, actions: actions, style: .alert)
     }
     
-    private static func createAlertController(title: String? = nil, message: String? = nil, actions: [AlertAction], style: UIAlertControllerStyle) -> UIAlertController {
+    private static func createAlertControllerWith(title: String? = nil, message: String? = nil, actions: [AlertAction], style: UIAlertControllerStyle) -> UIAlertController {
         
         let alert = UIAlertController(title: title, message: message, preferredStyle: style)
         

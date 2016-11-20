@@ -8,9 +8,12 @@
 
 import UIKit
 
-public protocol ViewControllerCreatable { }
+public protocol ViewControllerCreatable {
 
-public extension ViewControllerCreatable where Self : UIViewController {
+    func createControllerFromNavigationWith<T: UIViewController>(_ identifier: String, kindOf type: T.Type, from storyboard: UIStoryboard) -> StackController<T>?
+}
+
+public extension ViewControllerCreatable {
     
     public func createControllerFromNavigationWith<T: UIViewController>(_ identifier: String, kindOf type: T.Type, from storyboard: UIStoryboard) -> StackController<T>? {
         
@@ -21,4 +24,3 @@ public extension ViewControllerCreatable where Self : UIViewController {
         return StackController(navigation: nc, controller: vc)
     }
 }
-
