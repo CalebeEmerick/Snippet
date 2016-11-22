@@ -1,5 +1,5 @@
 //
-//  StackController.swift
+//  ControllerStack.swift
 //  Snippets
 //
 //  Created by Calebe Emerick on 20/11/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-public struct StackController<T: UIViewController> {
+public struct ControllerStack<T: UIViewController> {
     
     public let navigation: UINavigationController
     public let controller: T

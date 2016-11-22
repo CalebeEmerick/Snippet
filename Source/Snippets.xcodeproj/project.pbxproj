@@ -18,7 +18,7 @@
 		34535A9C1DE1EFDB00C5333C /* ImageTintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34535A9B1DE1EFDB00C5333C /* ImageTintable.swift */; };
 		34535AA11DE1F4B800C5333C /* TableViewHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34535AA01DE1F4B800C5333C /* TableViewHeight.swift */; };
 		34535AA41DE1F5A800C5333C /* ViewControllerCreatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34535AA31DE1F5A800C5333C /* ViewControllerCreatable.swift */; };
-		34535AA61DE1F5D800C5333C /* StackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34535AA51DE1F5D800C5333C /* StackController.swift */; };
+		34535AA61DE1F5D800C5333C /* ControllerStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34535AA51DE1F5D800C5333C /* ControllerStack.swift */; };
 		34535AA81DE1F8B900C5333C /* ViewControllerReusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34535AA71DE1F8B900C5333C /* ViewControllerReusable.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +36,7 @@
 		34535A9B1DE1EFDB00C5333C /* ImageTintable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTintable.swift; sourceTree = "<group>"; };
 		34535AA01DE1F4B800C5333C /* TableViewHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewHeight.swift; sourceTree = "<group>"; };
 		34535AA31DE1F5A800C5333C /* ViewControllerCreatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerCreatable.swift; sourceTree = "<group>"; };
-		34535AA51DE1F5D800C5333C /* StackController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackController.swift; sourceTree = "<group>"; };
+		34535AA51DE1F5D800C5333C /* ControllerStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerStack.swift; sourceTree = "<group>"; };
 		34535AA71DE1F8B900C5333C /* ViewControllerReusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerReusable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,7 +145,7 @@
 		34535AA21DE1F59600C5333C /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				34535AA51DE1F5D800C5333C /* StackController.swift */,
+				34535AA51DE1F5D800C5333C /* ControllerStack.swift */,
 				34535AA71DE1F8B900C5333C /* ViewControllerReusable.swift */,
 				34535AA31DE1F5A800C5333C /* ViewControllerCreatable.swift */,
 			);
@@ -239,7 +239,7 @@
 				34535A701DDF49C400C5333C /* Reusable.swift in Sources */,
 				34535A9A1DE1EF2000C5333C /* Color.swift in Sources */,
 				34535AA81DE1F8B900C5333C /* ViewControllerReusable.swift in Sources */,
-				34535AA61DE1F5D800C5333C /* StackController.swift in Sources */,
+				34535AA61DE1F5D800C5333C /* ControllerStack.swift in Sources */,
 				34535A681DDF495000C5333C /* AlertController.swift in Sources */,
 				34535A9C1DE1EFDB00C5333C /* ImageTintable.swift in Sources */,
 				34535A6E1DDF49C400C5333C /* CollectionViewReusable.swift in Sources */,
@@ -412,6 +412,7 @@
 				34535A641DDF482E00C5333C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

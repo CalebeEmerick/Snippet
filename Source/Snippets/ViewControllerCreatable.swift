@@ -10,17 +10,17 @@ import UIKit
 
 public protocol ViewControllerCreatable {
 
-    func createControllerFromNavigationWith<T: UIViewController>(_ identifier: String, kindOf type: T.Type, from storyboard: UIStoryboard) -> StackController<T>?
+    func createControllerFromNavigationWith<T: UIViewController>(_ identifier: String, kindOf type: T.Type, from storyboard: UIStoryboard) -> ControllerStack<T>?
 }
 
 public extension ViewControllerCreatable {
     
-    public func createControllerFromNavigationWith<T: UIViewController>(_ identifier: String, kindOf type: T.Type, from storyboard: UIStoryboard) -> StackController<T>? {
+    public func createControllerFromNavigationWith<T: UIViewController>(_ identifier: String, kindOf type: T.Type, from storyboard: UIStoryboard) -> ControllerStack<T>? {
         
         guard let nc = storyboard.instantiateViewController(withIdentifier: identifier) as?
             UINavigationController else { return nil }
         guard let vc = nc.contentViewController as? T else { return nil }
         
-        return StackController(navigation: nc, controller: vc)
+        return ControllerStack(navigation: nc, controller: vc)
     }
 }
