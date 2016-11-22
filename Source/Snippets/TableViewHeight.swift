@@ -22,10 +22,10 @@ public extension TableViewStyleable where Self : UITableView {
         
         switch height {
             
-        case .static(let height):
+        case let .static(height):
             self.rowHeight = height
             
-        case .automatic(let height):
+        case let .automatic(height):
             self.estimatedRowHeight = height
             self.rowHeight = UITableViewAutomaticDimension
         }
