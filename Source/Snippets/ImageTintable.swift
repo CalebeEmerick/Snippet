@@ -22,9 +22,9 @@ public extension ImageTintable where Self : UIImageView {
         self.tintColor = color
     }
     
-    public func tint(with img: UIImage?, color: UIColor) {
+    public func tint(with image: UIImage?, color: UIColor) {
         
-        self.image = img?.withRenderingMode(.alwaysTemplate)
+        self.image = image?.withRenderingMode(.alwaysTemplate)
         self.tintColor = color
     }
 }
