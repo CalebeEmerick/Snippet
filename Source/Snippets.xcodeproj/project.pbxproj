@@ -20,6 +20,7 @@
 		34535AA41DE1F5A800C5333C /* ViewControllerCreatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34535AA31DE1F5A800C5333C /* ViewControllerCreatable.swift */; };
 		34535AA61DE1F5D800C5333C /* ControllerStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34535AA51DE1F5D800C5333C /* ControllerStack.swift */; };
 		34535AA81DE1F8B900C5333C /* ViewControllerReusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34535AA71DE1F8B900C5333C /* ViewControllerReusable.swift */; };
+		34535AAA1DE461A800C5333C /* NavigationBarStyleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34535AA91DE461A800C5333C /* NavigationBarStyleable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		34535AA31DE1F5A800C5333C /* ViewControllerCreatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerCreatable.swift; sourceTree = "<group>"; };
 		34535AA51DE1F5D800C5333C /* ControllerStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerStack.swift; sourceTree = "<group>"; };
 		34535AA71DE1F8B900C5333C /* ViewControllerReusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerReusable.swift; sourceTree = "<group>"; };
+		34535AA91DE461A800C5333C /* NavigationBarStyleable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarStyleable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				34535AA51DE1F5D800C5333C /* ControllerStack.swift */,
 				34535AA71DE1F8B900C5333C /* ViewControllerReusable.swift */,
 				34535AA31DE1F5A800C5333C /* ViewControllerCreatable.swift */,
+				34535AA91DE461A800C5333C /* NavigationBarStyleable.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			files = (
 				34535AA41DE1F5A800C5333C /* ViewControllerCreatable.swift in Sources */,
 				34535AA11DE1F4B800C5333C /* TableViewHeight.swift in Sources */,
+				34535AAA1DE461A800C5333C /* NavigationBarStyleable.swift in Sources */,
 				34535A711DDF49C400C5333C /* TableViewReusable.swift in Sources */,
 				34535A701DDF49C400C5333C /* Reusable.swift in Sources */,
 				34535A9A1DE1EF2000C5333C /* Color.swift in Sources */,
